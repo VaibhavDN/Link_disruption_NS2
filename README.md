@@ -86,19 +86,19 @@ Further we analyze two TCP nodes set at alternate position to observe the workin
 
 #### RESULTS and CONCLUSION:
 
-    1.	We observed that TCP stops sending packets during congestion while UDP mindlessly keeps 
+    -> We observed that TCP stops sending packets during congestion while UDP mindlessly keeps 
     sending packets into the network. This proves TCP implements congestion control.
 
-    2.	We found that New reno performs best for our topology out of other congestion control 
+    -> We found that New reno performs best for our topology out of other congestion control 
     algorithms. As observed from the graph.
 
-    3.	Same TCP congestion control algorithm when implemented by different TCP nodes perform 
+    -> Same TCP congestion control algorithm when implemented by different TCP nodes perform 
     very differently as distance vector algorithm chooses different paths for different nodes.
 
-    4.	Weakest link in our topology was link from node 9 - node 10 and node 9 - node 11. As 
+    -> Weakest link in our topology was link from node 9 - node 10 and node 9 - node 11. As 
     observed from the graph. The minimum throughput is observed at 11.8 sec.
 
-    5.	Maximum throughput of the network is 2.2 Mbps achieved by CBR packets operating on UDP 
+    -> Maximum throughput of the network is 2.2 Mbps achieved by CBR packets operating on UDP 
     protocol.
 
 
