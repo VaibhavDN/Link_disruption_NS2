@@ -98,8 +98,7 @@ Further we analyze two TCP nodes set at alternate position to observe the workin
     -> Weakest link in our topology was link from node 9 - node 10 and node 9 - node 11. As 
     observed from the graph. The minimum throughput is observed at 11.8 sec.
 
-    -> Maximum throughput of the network is 2.2 Mbps achieved by CBR packets operating on UDP 
-    protocol.
+    -> Maximum throughput of the network is 2.2 Mbps achieved by CBR packets operating on UDP.
 
 
 
